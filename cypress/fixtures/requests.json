@@ -1,0 +1,4 @@
+{
+    "get all products": "/products",
+    "get a product": "/products/3"
+}

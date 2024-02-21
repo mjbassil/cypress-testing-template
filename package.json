@@ -1,0 +1,25 @@
+{
+  "name": "cypress-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cypress:api": "cypress open --e2e --config specPattern=cypress/api-tests/**/*.feature",
+    "cypress:e2e": "cypress open --e2e --config specPattern=cypress/e2e/**/*.feature",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "stepDefinitions": [
+    "cypress/sypport/step_definitions/**/*.ts"
+  ],
+  "author": "Marie Josée Bassil",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.6.5",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^20.0.1",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0",
+    "@percy/cypress": "^3.1.2"
+  }
+}

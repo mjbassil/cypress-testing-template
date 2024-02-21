@@ -1,0 +1,16 @@
+{
+    "Products": {
+        "get all products": "/products",
+        "get a single product": "/products/{id}",
+        "limit results": "/products?limit={limit}",
+        "sort results": "/products?sort={sort}",
+        "get all categories": "/products/categpries",
+        "get products in a specific category": "products/category/{category}",
+        "add new product": "products",
+        "update a product": "products/{id}",
+        "delete a product": "products/{id}"
+    },
+    "Cart": [],
+    "User": [],
+    "Login": []
+}

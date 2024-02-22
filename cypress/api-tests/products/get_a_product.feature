@@ -1,4 +1,4 @@
-Feature: Get all products
+Feature: Get a products
 
     Scenario Outline: Nominal case
         When I send a "GET" request to "get a product"

@@ -1,10 +1,10 @@
 {
     "get all products": "/products",
-    "get a product": "/products/3",
-    "get limited products": "/products?limit=5",
-    "get sorted products": "/products?sort=desc",
+    "get a product": "/products/[productId]",
+    "get limited products": "/products?limit=[limit]",
+    "get sorted products": "/products?sort=[sort]",
     "get all categories": "/products/categories",
-    "get all product from a category": "/products/categories/jewelery",
+    "get all product from a category": "/products/category/jewelery",
     "add a product": "/products",
     "update a product": "/products/21",
     "delete a product": "/products/6"

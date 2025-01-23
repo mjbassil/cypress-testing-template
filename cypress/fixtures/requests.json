@@ -6,6 +6,6 @@
     "get all categories": "/products/categories",
     "get all product from a category": "/products/category/jewelery",
     "add a product": "/products",
-    "update a product": "/products/21",
-    "delete a product": "/products/6"
+    "update a product": "/products/[productId]",
+    "delete a product": "/products/[productId]"
 }

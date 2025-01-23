@@ -5,7 +5,6 @@ module.exports = defineConfig({
     baseUrl: 'http://fakestoreapi.com',
   },
   e2e: {
-
     specPattern: "**/*.feature",
     experimentalStudio: true,
     supportFile: "./cypress/support/e2e.ts",

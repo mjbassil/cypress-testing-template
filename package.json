@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "cypress:api": "cypress open --e2e --config specPattern=cypress/api-tests/**/*.feature",
-    "cypress:e2e": "cypress open --e2e --config specPattern=cypress/e2e/**/*.feature",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "cypress:e2e": "cypress open --e2e --config specPattern=cypress/e2e-tests/**/*.feature"
   },
   "stepDefinitions": [
     "cypress/sypport/step_definitions/**/*.ts"
